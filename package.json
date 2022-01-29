@@ -1,18 +1,17 @@
 {
-	"name": "petit",
+	"name": "@bisaek/vuerun",
 	"description": "vite + vue",
-	"version": "0.0.1",
+	"version": "0.0.4",
 	"license": "MIT",
 	"bin": {
-		"petit": "index.js"
+		"vuerun": "index.js"
 	},
 	"author": {
 		"name": "bertram hugger",
-		"email": "huggerbertram@gmail.com",
-		"url": "???"
+		"email": "huggerbertram@gmail.com"
 	},
 	"keywords": [
-		"",
+		"vue",
 		"bertram hugger"
 	],
 	"files": [

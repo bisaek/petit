@@ -1,11 +1,12 @@
 import vue from '@vitejs/plugin-vue';
-// import serverInfo from '../server.json';
+import { defineConfig } from 'vite';
 import path from 'path';
-export default {
+
+export default defineConfig({
 	resolve: {
 		alias: {
 			'@': path.resolve(process.cwd(), 'App.vue')
 		}
 	},
 	plugins: [vue()]
-};
+});
