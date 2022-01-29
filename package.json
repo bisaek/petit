@@ -1,25 +1,41 @@
 {
-  "name": "@bisaek/petit",
-  "version": "0.0.1",
-  "description": "",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/bisaek/petit.git"
-  },
-  "keywords": [],
-  "author": "",
-  "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/bisaek/petit/issues"
-  },
-  "homepage": "https://github.com/bisaek/petit#readme",
-  "dependencies": {
-    "@vitejs/plugin-vue": "^2.1.0",
-    "vite": "^2.7.13",
-    "vue": "^3.2.28"
-  }
+	"name": "petit",
+	"description": "vite + vue",
+	"version": "0.0.1",
+	"license": "MIT",
+	"bin": {
+		"petit": "index.js"
+	},
+	"author": {
+		"name": "bertram hugger",
+		"email": "huggerbertram@gmail.com",
+		"url": "???"
+	},
+	"keywords": [
+		"",
+		"bertram hugger"
+	],
+	"files": [
+		"index.js",
+		"utils"
+	],
+	"scripts": {
+		"format": "prettier --write \"./**/*.{js,json}\""
+	},
+	"dependencies": {
+		"@vitejs/plugin-vue": "^2.1.0",
+		"chalk": "^5.0.0",
+		"cli-alerts": "^1.2.2",
+		"cli-handle-error": "^4.4.0",
+		"cli-handle-unhandled": "^1.1.1",
+		"cli-meow-help": "^2.0.2",
+		"cli-welcome": "^2.2.2",
+		"fs-extra": "^10.0.0",
+		"meow": "^9.0.0",
+		"vite": "^2.7.13",
+		"vue": "^3.2.29"
+	},
+	"devDependencies": {
+		"prettier": "^2.5.1"
+	}
 }
